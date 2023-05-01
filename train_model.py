@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import time
+import pickle
 from imblearn.under_sampling import RandomUnderSampler
 from sklearn import metrics
 from sklearn.impute import SimpleImputer
@@ -87,3 +88,8 @@ print("Confusion matrix:" "\n", confusion_matrix)
 print()
 print("Classification report:" "\n", classification) 
 print()
+
+
+
+filename = 'model/bayes_model.sav'
+pickle.dump(bayes, open(filename, 'wb'))
