@@ -1,2 +1,4 @@
 MachineLearningCVE/*.csv
 model/*.sav
+.idea
+.DS_Store
