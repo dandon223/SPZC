@@ -1,10 +1,9 @@
 # SPZC
 
-1.
-MachineLearningCVE/instrukcja.txt
+## Installation
 
-2.
-python createPortScanDataBase.py
+Create dataset by joining datasets from [this](https://www.kaggle.com/datasets/cicdataset/cicids2017?resource=download) 
+website. In order to do this download datasets and put them in folder MachineLearningCVE. Then, run script `createPortScanDataset.py`
 
 3.
 python train_model.py

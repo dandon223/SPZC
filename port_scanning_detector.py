@@ -80,7 +80,6 @@ def retrieve_attributes(packet):
 filename = 'model/bayes_model.sav'
 bayes = pickle.load(open(filename, 'rb'))
 
-
 capture = pyshark.LiveCapture(interface='Any', display_filter="tcp")
 for packet in capture.sniff_continuously(packet_count=5):
 
