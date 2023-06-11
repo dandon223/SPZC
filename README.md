@@ -1,12 +1,20 @@
 # SPZC
 
-## Installation
+## Instrukcja
 
-Create dataset by joining datasets from [this](https://www.kaggle.com/datasets/cicdataset/cicids2017?resource=download) 
-website. In order to do this download datasets and put them in folder MachineLearningCVE. Then, run script `createPortScanDataset.py`
+### Środowisko
 
-3.
-python train_model.py
+* Python > 3.8
+* Instalacja bibliotek z pliku AB-TRAP/requirements.txt
 
-4.
-python test_model.py
+
+### Zbiór danych
+
+* Uruchomienie AB-TRAP/1_Attack dataset
+* Uruchomienie AB-TRAP/2_Bonafide dataset
+
+### Trenowanie i zapis modelu
+
+* Uruchomienie AB-TRAP/3_Training models
+    * Plik 1. Local Area Network.ipynb najlepiej uruchomić za pomocą jupyter notebook
+* Wyuczony model będzie dostępny w folderze model.
