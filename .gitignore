@@ -2,3 +2,4 @@ MachineLearningCVE/*.csv
 model/*.sav
 .idea
 .DS_Store
+AB-TRAP/1_Attack\ dataset/Local\ Area\ Network/.vagrant
